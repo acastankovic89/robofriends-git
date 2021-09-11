@@ -1,0 +1,23 @@
+.searchBox {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.searchBox .searchInput {
+    height: 40px;
+    width: 250px;
+    background: lightblue;
+    border: 1px solid lightblue;
+    padding: 0 0 0 10px;
+}
+
+.searchBox .searchInput:focus {
+    outline: none;
+}
+
+.searchBox .searchInput::placeholder {
+    color: #ffffff;
+
+}
