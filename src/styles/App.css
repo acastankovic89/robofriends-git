@@ -5,6 +5,21 @@
     src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
 }
 
+.appPage .countWrapper {
+    padding: 40px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appPage .countWrapper button {
+    width: 150px;
+    height: 60px;
+    color: #0ccac4;
+    cursor: pointer;
+    font-family: 'SEGA LOGO FONT';
+}
+
 .appTitle {
     text-align: center;
     font-family: 'SEGA LOGO FONT';

@@ -37,10 +37,12 @@ const App = () => {
         })
         return !robots.length ?
              <h1 className={'appTitle'}>Loading</h1> :
-                <div>
+                <div className={'appPage'}>
                     <h1 className={'appTitle'}>Robofriends</h1>
-                    <button onClick={onClick}>Click me</button>
-                    {/*<h1 className={'appTitle'}>{count}</h1>*/}
+                    <div className={'countWrapper'}>
+                        <button onClick={onClick}>Click me</button>
+                        <h1 className={'appTitle'}>{count}</h1>
+                    </div>
                     <SearchBox searchChange={onSearchChange}/>
                     <ErrorBoundary>
                         <Scroll>
